@@ -1,0 +1,69 @@
+Banking Management System using Python & MySQL
+
+A console-based Banking Management System developed using Python and MySQL. This project allows users to create bank accounts, securely log in, perform banking transactions, and manage their account information through a simple command-line interface.
+
+Features
+User Registration (Sign Up)
+User Login (Authentication)
+Deposit Money
+Withdraw Money
+View Account Balance
+View Last Five Transactions
+Update Account Details
+Delete Account
+MySQL Database Integration
+Password Validation
+Input Validation and Exception Handling
+Technologies Used
+Python 3
+MySQL
+MySQL Connector for Python
+MySQL Workbench
+Database
+
+The project uses a MySQL database named hubnet with the following tables:
+
+bank
+transaction
+How to Run
+Clone this repository.
+Install MySQL Connector:
+pip install mysql-connector-python
+Create a MySQL database named hubnet.
+Create the required bank and transaction tables.
+Update the MySQL credentials in bank-project.py:
+host="localhost"
+user="root"
+password="YOUR_PASSWORD"
+database="hubnet"
+Run the project:
+python bank-project.py
+Features Demonstrated
+Customer Registration
+Secure Login
+Deposit & Withdrawal
+Transaction History
+Profile Management
+Account Deletion
+Learning Outcomes
+Python Programming
+MySQL Database Connectivity
+CRUD Operations
+Exception Handling
+Database Management
+Console-Based Application Development
+Repository Description (Short)
+
+A Python and MySQL based Banking Management System that allows users to register, log in, deposit, withdraw, view transaction history, and manage their bank accounts through a secure command-line interface.
+
+GitHub Topics
+python
+mysql
+bank-management-system
+python-project
+database
+crud
+mysql-connector
+console-application
+beginner-project
+python3
