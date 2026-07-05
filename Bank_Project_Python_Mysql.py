@@ -16,7 +16,7 @@ mycur= mycon.cursor()
 while True:
     print("\n")
     print("___________________________________________________________________________")
-    print("*******************  Welcome To Colony Bank Of India  *******************")
+    print("*******************  Welcome To Sravani Bank Of India  *******************")
     print("____________________________________________________________________________")
     print("Press 1 to for Sign Up ")
     print("Press 2 to for Sign In  ")
@@ -405,7 +405,7 @@ while True:
                     elif(ch1==7):
                         print("\n")
                         print("_____________________________________________________________________________")
-                        print("*************Thanks For Choosing Colony Bank Of India *****************")
+                        print("*************Thanks For Choosing Sravani Bank Of India *****************")
                         print("____________________________________________________________________________")
                         exit()
                     
